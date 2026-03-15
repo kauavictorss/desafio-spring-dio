@@ -30,7 +30,7 @@ public class ClienteService {
             new RuntimeException("Cliente não encontrado"));
     }
 
-    public Cliente inserir(ClienteDto clienteDto) {
+    public Cliente cadastrar(ClienteDto clienteDto) {
         return salvarClienteComCep(clienteDto, null);
     }
 
@@ -41,7 +41,7 @@ public class ClienteService {
         return salvarClienteComCep(clienteDto, id);
     }
 
-    public void deletar(Long id) {
+    public void remover(Long id) {
         clienteRepository.deleteById(id);
     }
 

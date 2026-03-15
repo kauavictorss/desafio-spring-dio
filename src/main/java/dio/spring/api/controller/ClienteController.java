@@ -29,7 +29,7 @@ public class ClienteController {
 
     @PostMapping
     public ResponseEntity<Cliente> cadastrar(@RequestBody ClienteDto clienteDto) {
-        return ResponseEntity.status(HttpStatus.CREATED).body(service.inserir(clienteDto));
+        return ResponseEntity.status(HttpStatus.CREATED).body(service.cadastrar(clienteDto));
     }
 
     @PutMapping("/{id}")
@@ -38,8 +38,8 @@ public class ClienteController {
     }
 
     @DeleteMapping("/{id}")
-    public ResponseEntity<Void> deletar(@PathVariable Long id) {
-        service.deletar(id);
+    public ResponseEntity<Void> remover(@PathVariable Long id) {
+        service.remover(id);
         return ResponseEntity.noContent().build();
     }
 
