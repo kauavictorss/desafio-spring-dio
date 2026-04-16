@@ -125,16 +125,24 @@ A documentação interativa da API está disponível em:
 
 ---
 
-## 👨‍💻 Autor
+## ✍️ Autor
 
-<br>
-
-<img src="https://github.com/kauavictorss.png" width="100px" style="border-radius: 50%;" alt="Kauã Victors"/>
-
-<br>
-
-**Kauã Victors**
+<div align="center">
+  <img src="https://github.com/kauavictorss.png" width="150px" style="border-radius: 50%;" alt="Kauã Victor"/>
+  <br><br>
+  <strong>Kauã Victor Silva dos Santos</strong>
+  <br><br>
 
 [![GitHub](https://img.shields.io/badge/GitHub-kauavictorss-181717?style=for-the-badge&logo=github)](https://github.com/kauavictorss)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Kauã_Victor_S._Santos-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/kaua-victor-santos/)
+</div>
+
+---
+
+## 🎓 Certificação DIO
+
+Projeto desenvolvido como parte do Bootcamp **Accenture - Desenvolvimento Java & Cloud** da **[Digital Innovation One (DIO)](https://www.dio.me)**, com foco em **Desenvolvimento de APIs REST com Java e Spring Boot**.
+
+[![Certificado DIO](https://img.shields.io/badge/Certificado-DIO-E67E22?style=for-the-badge&logo=douban)](https://www.dio.me/certificate/9NZIQH9Q/share)
 
 Feito com 💙 durante o bootcamp **Accenture - Desenvolvimento Java & Cloud** da **DIO**.
